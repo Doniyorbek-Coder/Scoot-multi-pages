@@ -12,3 +12,8 @@ for (i = 0; i < coll.length; i++) {
     }
   })
 }
+
+document.querySelector('.header__burger').addEventListener('click', () => {
+  document.querySelector('.header__burger').classList.toggle('active')
+  document.querySelector('.sitenav').classList.toggle('active')
+})

@@ -13,8 +13,8 @@
 
     <header class="site-header">
       <div class="container">
-        <nav class="sitenav">
-          <a class="logo" href="#">
+        <div class="content">
+          <a class="logo" href="index.html">
             <img
               class="logo__img"
               src="images/logo.svg"
@@ -23,26 +23,31 @@
               alt="logo"
             />
           </a>
-          <ul class="sitenav__list">
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="about.html">About</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="location.html">Location</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="careers.html">Careers</a>
-            </li>
-          </ul>
-          <a href="#" class="sitenav__button">Get Scootin</a>
-        </nav>
+          <div class="header__burger">
+            <button class="header__burger-line"></button>
+          </div>
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="about.html">About</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="location.html">Location</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="careers.html">Careers</a>
+              </li>
+            </ul>
+            <a href="#" class="sitenav__button">Get Scootin</a>
+          </nav>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero__container container">
-          <h1 class="hero__title">Scooter sharing made simple</h1>
+          <h2 class="hero__title">Scooter sharing made simple</h2>
           <p class="hero__text">
             Scoot takes the hassle out of urban mobility. Our bikes are placed
             in convenient locations in each of our cities. Use our app to locate
@@ -235,5 +240,7 @@
         </div>
       </nav>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

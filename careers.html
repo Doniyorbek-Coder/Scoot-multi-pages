@@ -11,7 +11,7 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <nav class="sitenav">
+        <div class="content">
           <a class="logo" href="index.html">
             <img
               class="logo__img"
@@ -21,19 +21,24 @@
               alt="logo"
             />
           </a>
-          <ul class="sitenav__list">
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="about.html">About</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="location.html">Location</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Careers</a>
-            </li>
-          </ul>
-          <a href="#" class="sitenav__button">Get Scootin</a>
-        </nav>
+          <div class="header__burger">
+            <button class="header__burger-line"></button>
+          </div>
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="about.html">About</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="location.html">Location</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Careers</a>
+              </li>
+            </ul>
+            <a href="#" class="sitenav__button">Get Scootin</a>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -244,5 +249,7 @@
         </div>
       </nav>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

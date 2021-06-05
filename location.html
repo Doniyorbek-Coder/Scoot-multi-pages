@@ -11,7 +11,7 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <nav class="sitenav">
+        <div class="content">
           <a class="logo" href="index.html">
             <img
               class="logo__img"
@@ -21,19 +21,24 @@
               alt="logo"
             />
           </a>
-          <ul class="sitenav__list">
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="about.html">About</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Location</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="careers.html">Careers</a>
-            </li>
-          </ul>
-          <a href="#" class="sitenav__button">Get Scootin</a>
-        </nav>
+          <div class="header__burger">
+            <button class="header__burger-line"></button>
+          </div>
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="about.html">About</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Location</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="careers.html">Careers</a>
+              </li>
+            </ul>
+            <a href="#" class="sitenav__button">Get Scootin</a>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -45,7 +50,22 @@
       </section>
       <section class="maps">
         <div class="maps__container container">
+          <div class="maps__content"></div>
           <h2 class="visually-hidden">Location maps</h2>
+          <ul class="maps__list">
+            <li class="maps__item">
+              <a class="maps__link" href="#">New York</a>
+            </li>
+            <li class="maps__item">
+              <a class="maps__link" href="#">London</a>
+            </li>
+            <li class="maps__item">
+              <a class="maps__link" href="#">Yokohama</a>
+            </li>
+            <li class="maps__item">
+              <a class="maps__link" href="#">Jakarta</a>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="contact">
@@ -155,5 +175,7 @@
         </div>
       </nav>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
