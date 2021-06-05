@@ -22,6 +22,7 @@
   --blue: #00bafc;
   --footer-bg: #191919;
   --accent-color: rgb(252, 183, 43);
+  --black: #000000;
 }
 
 html {
@@ -44,7 +45,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: var(--black);
 }
 
 img {
@@ -618,7 +619,6 @@ main {
   margin: 0;
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
 }
 .values__item:not(:last-child) {
   margin-right: 30px;
@@ -1511,5 +1511,11 @@ main {
   .contact__title {
     margin-right: 0;
     margin-bottom: 40px;
+  }
+  .about-offer__item {
+    align-content: center;
+  }
+  .about-offer__button {
+    align-self: center;
   }
 }
